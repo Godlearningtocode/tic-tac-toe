@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #080705;
+    color: rgb(236, 235, 243);
+    margin: 0px;
+}
+
+.mainBoard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;  
+
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    border: 2px solid #ecebf3;
+    max-width: 302px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+#gameBoard div {
+    color: #080705;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.turnMessage {
+    padding: 10px;
+    margin: 30px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: #19647E;
+    height: 150px;
+    min-width: 100%;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #59344F;
+}
+
+.reset {
+    display:  flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+    background-color: #19647E;
+    border: 3px solid #59344F;
+    border-radius: 4%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    height: 61px;
+    border-top: 2px solid #59344F;
+    background-color: #19647E;
+}
